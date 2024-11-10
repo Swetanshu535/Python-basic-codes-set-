@@ -1,0 +1,79 @@
+#logical operators [and,or,not]
+temp=int(input("Enter the temperature outside"))
+
+if temp >=0 and temp <=40:
+    print("The weather is great outside!")
+else:
+    print("Do not go outside")
+
+
+while loop 
+
+name= ""
+while len(name)==0:
+   name=input("Enter the name: ")
+
+print("Hello" +name)
+
+Happy New Year program 
+import time
+
+for seconds in  range(10,0,-1):
+   print(seconds)
+   time.sleep(1)
+print("Happy new year")
+
+
+Rectangle program 
+
+
+rows= int(input("How many rows: "))
+columns=int(input("How many columns: "))
+symbol=input("Enter a symbol to use: ")
+
+for i in range(rows):
+   for j in range(columns):
+      print(symbol,end="")
+   print()
+
+
+Nested loop 
+
+
+while True:
+   name=input("Enter the name: ")
+   if name!="":
+      break
+print("Hello"+name)
+
+
+#logical operators [and,or,not]
+gym= ["Back", "Biceps", "leg", "chest", "traps", "abs"]
+
+gym[1] = "core"
+#print(gym[1])
+#gym.append("Biceps")
+#gym.remove("core")
+#gym.pop()
+#gym.insert(0,"cardio")
+gym.sort()
+
+for i in gym:
+    print (i)
+
+
+
+food=["meat","cake"]
+drinks=["soda","wine"]
+dessert=["icecream"]
+
+items= [food,drinks,dessert]
+#print (items)
+#print(items[1])
+print(items[2][0])
+
+
+
+
+
+
